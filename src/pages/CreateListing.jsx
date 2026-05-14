@@ -63,7 +63,7 @@ function CreateListing() {
     e.preventDefault();
     setLoading(true);
 
-    if (discountedPrice > regularPrice) {
+    if (Number(discountedPrice) >Number( regularPrice)) {
       setLoading(false);
       toast.error("Discounted price should be less than regular price");
       return;
