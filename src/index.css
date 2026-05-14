@@ -138,22 +138,7 @@ button {
     transform: rotate(360deg);
   }
 }
-/* .spinnerContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; 
-  background-color: #f9f9f9; 
-}
 
-.loadingSpinner {
-  width: 60px;
-  height: 60px;
-  border: 6px solid #e0e0e0; 
-  border-top: 6px solid #3af196; 
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-} */
 
 @keyframes spin {
   0% {
@@ -163,7 +148,7 @@ button {
     transform: rotate(360deg);
   }
 }
-*/ .pageHeader {
+.pageHeader{
   font-size: 2rem;
   font-weight: 800;
 }
